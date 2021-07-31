@@ -1,1 +1,43 @@
+class quiz
 
+{
+
+public static void(String args[])
+
+{
+
+int =0 ;
+
+System.out.println("Welcome to the game of death");
+
+string questions []=
+
+{ "What is your name", "What is your age", "Which bird is not a bird", "Which is your favourite subject", "Who are your best friends", " Which is your favourite game"};
+
+string answer[]={"14", " duck", "physics and computer", "tirth and jay", "Minecraft"};
+
+System.out.println("Answer the following questions ");
+
+for(int i=0;i<=3;? i++)
+
+{
+
+System.out.println
+
+(question[ i ]);
+
+string a = in. next ();
+
+if ( a. equals
+
+(answer[ i ]))
+
+score ++;
+
+}
+
+System.out.println( " Your score is = "+ score);
+
+}
+
+}
